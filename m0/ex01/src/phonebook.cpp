@@ -6,11 +6,11 @@
 /*   By: ededemog <ededemog@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/04 14:25:26 by ededemog          #+#    #+#             */
-/*   Updated: 2025/03/10 18:20:52 by ededemog         ###   ########.fr       */
+/*   Updated: 2025/04/03 10:44:54 by ededemog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "PhoneBook.hpp"
+#include "../inc/PhoneBook.hpp"
 
 PhoneBook::PhoneBook(void) : contactIndex(0), contactCount(0)
 {

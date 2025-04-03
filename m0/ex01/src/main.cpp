@@ -6,12 +6,11 @@
 /*   By: ededemog <ededemog@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/10 18:15:25 by ededemog          #+#    #+#             */
-/*   Updated: 2025/03/10 18:26:06 by ededemog         ###   ########.fr       */
+/*   Updated: 2025/04/03 10:45:40 by ededemog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "PhoneBook.hpp"
-#include "Contact.hpp"
+#include "../inc/PhoneBook.hpp"
 
 std::string getInput(const std::string &prompt)
 {

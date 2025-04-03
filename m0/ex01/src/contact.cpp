@@ -6,11 +6,11 @@
 /*   By: ededemog <ededemog@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/01 16:53:34 by ededemog          #+#    #+#             */
-/*   Updated: 2025/03/10 18:20:50 by ededemog         ###   ########.fr       */
+/*   Updated: 2025/04/03 10:45:06 by ededemog         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Contact.hpp"
+#include "../inc/Contact.hpp"
 
 Contact::Contact() : firstName(""), lastName(""), nickname(""), number(""), darkestSecret("")
 {
