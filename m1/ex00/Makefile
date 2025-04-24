@@ -6,7 +6,7 @@
 #    By: ededemog <ededemog@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/03 11:10:21 by ededemog          #+#    #+#              #
-#    Updated: 2025/04/24 13:33:31 by ededemog         ###   ########.fr        #
+#    Updated: 2025/04/03 11:21:55 by ededemog         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = zombie
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = src/main.cpp src/zombieHorde.cpp src/Zombie.cpp
+SRCS = src/main.cpp src/newZombie.cpp src/randomChump.cpp src/Zombie.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 all: $(NAME)
